@@ -17,16 +17,41 @@ nav img {
 	background: linear-gradient(45deg, #845EC2 0%,#D65DB1 20%,#FF6F91 40%,#FF9671 60%,#FFC75F 80%, #F9F871 100%);
 }
 
+/* Snapchat Box */
 #second {
-    background: linear-gradient(45deg, #845EC2 0%,#2C73D2 20%,#0081CF 40%,#0089BA 60%,#008E9B 80%, #008F7A 100%);
+    background: url("../img/snapchat_ghost.png"), #FFFC00;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
 }
 
 #third {
     background: linear-gradient(45deg, #D16BA5 0%, #86A8E7 66%, #5FFBF1 100%)
 }
 
-#last {
-    padding-bottom: 5%;
+#ted-talk1 {
+    background: url("../img/chat.png");
+    background-repeat: no-repeat;
+    background-size: 100px;
+    background-position: center;
+}
+
+#ted-talk2 {
+    background: url("../img/chat.png");
+    background-repeat: no-repeat;
+    background-size: 100px;
+    background-position: center;
+}
+
+#ted-talk3 {
+    background: url("../img/chat.png");
+    background-repeat: no-repeat;
+    background-size: 100px;
+    background-position: center;
+}
+
+.space {
+    padding-top: 5%;
 }
 
 #footer {
