@@ -9,3 +9,19 @@ function openInstagram () {
 function openSnapchat () {
 	return window.open("https://www.snapchat.com/add/fassungslose", "_blank");
 }
+
+function openTinder () {
+	return window.open();
+}
+
+function checkIfDamiraHasBirthday () {
+	const date = new Date();
+	let day = date.getDate();
+	let month = date.getMonth();
+
+	if (day === 18 && month === 2) {  // 18th march
+		alert("Alles gute zum Geburtstag Damira 🎉🎉🎉");
+	}
+
+	return null;
+}
