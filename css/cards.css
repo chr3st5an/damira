@@ -1,13 +1,25 @@
 @import url("https://fonts.googleapis.com/css?family=Avenir Next|Proxima Nova");
 
 
+@media only screen and (max-width: 1100px) {
+	.card {
+		margin: 20% 0%;
+		width: 16em;
+	}
+}
+
+@media only screen and (min-width: 1101px) {
+	.card {
+		margin: 5% 0%;
+		width: 18em;
+	}
+}
+
 .card {
-	width: 18em;
 	opacity: 0.5;
 	text-align: center;
 	border-radius: 20px;
 	transition: 1s ease;
-	margin: 5% 0% 5% 0%;
 }
 
 .card img {
