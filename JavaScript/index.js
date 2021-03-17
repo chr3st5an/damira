@@ -10,8 +10,18 @@ function openSnapchat () {
 	return window.open("https://www.snapchat.com/add/fassungslose", "_blank");
 }
 
-function openTinder () {
-	return window.open();
+function saveNumber () {
+	navigator.clipboard.writeText("Du musst Damira schon nach ihrer Nummer fragen ;)");
+
+	for (element of document.getElementsByClassName("copy")) {
+		element.setAttribute("style", "display:none");
+	}
+
+	for (element of document.getElementsByClassName("copied")) {
+		element.setAttribute("style", "display:inline");
+	}
+
+	return null;
 }
 
 function checkIfDamiraHasBirthday () {

@@ -94,3 +94,33 @@
 	display: none;
 }
 
+
+#whatsapp {
+	font-family: Helvetica Neue;
+}
+
+#whatsapp img {
+	border-radius: 50%;
+}
+
+#whatsapp .show {
+	display: none;
+}
+
+#whatsapp:hover {
+	color: #FFFFFF;
+	background: url("../img/chat_bg.jpeg");
+	background-position: center;
+}
+
+#whatsapp:hover .show {
+	display: inline;
+}
+
+#whatsapp:hover .normal {
+	display: none;
+}
+
+.copied {
+	display: none;
+}

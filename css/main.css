@@ -26,7 +26,10 @@ nav img {
 }
 
 #third {
-    background: linear-gradient(45deg, #D16BA5 0%, #86A8E7 66%, #5FFBF1 100%)
+    background: url("../img/whatsapp.png"), #4FCE5D;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
 }
 
 #ted-talk1 {
