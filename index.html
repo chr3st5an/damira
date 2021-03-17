@@ -9,7 +9,6 @@
 		<link rel="stylesheet" href="css/main.css">
 		<link rel="stylesheet" href="css/cards.css">
 		<script type="text/javascript" src="JavaScript/index.js"></script>
-		<script type="text/javascript" src="JavaScript/buttons.js"></script>
 	</head>
 	<body>
 		<div id="intro">
@@ -22,14 +21,14 @@
 			  	</div>
 			</nav>
 			<div class="col d-flex justify-content-center">
-				<div class="card" id="first">
+				<div class="card" id="instagram">
 					<div class="card-header">
 				    	Instagram
 				  	</div>
-				  	<img src="https://scontent-dus1-1.cdninstagram.com/v/t51.2885-19/s150x150/161454632_759648481656892_2084427315852637299_n.jpg?tp=1&_nc_ht=scontent-dus1-1.cdninstagram.com&_nc_ohc=iLgEzIGBF3IAX_mKE9_&oh=74019ba10f3d8f4b07b9f32056ca0bf1&oe=607AA915" class="card-img-top" alt="Damira">
+				  	<img src="img/damira.jpg" class="card-img-top" alt="Damira">
 				  	<div class="card-body">
 				    	<h5 class="card-title">Purefairytale</h5>
-				    	<p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+				    	<p class="card-text">Ästhetische Posts und Stories gibt's nur hier!</p>
 				    	<span class="normal">
 					    	<button class="btn btn-outline-primary" onclick="openInstagram()">
 					    		Follow&nbsp
@@ -69,15 +68,32 @@
 			</div>
 		</div>
 		<div class="col d-flex justify-content-center" id="second">
-			<div class="card">
+			<div class="card" id="snapchat">
 				<div class="card-header">
-				    Instagram
+				    Snapchat
 				</div>
-			  	<img src="..." class="card-img-top" alt="...">
+			  	<img src="img/snapchat_qr.png" class="card-img-top" alt="QR Code">
 			  	<div class="card-body">
-			    	<h5 class="card-title">Card title</h5>
-			    	<p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-			    	<a href="#" class="btn btn-primary">Go somewhere</a>
+			    	<h5 class="card-title">Fassunglose</h5>
+			    	<p class="card-text">Tägliche Snaps von Damira sind so berühigend, wie Pinguine auf Speed.</p>
+			    	<span class="normal">
+			    		<button class="btn btn-outline-primary" onclick="openSnapchat()">
+			    			Adden&nbsp
+			    			<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-box-arrow-up-right" viewBox="0 0 16 16">
+							    <path fill-rule="evenodd" d="M8.636 3.5a.5.5 0 0 0-.5-.5H1.5A1.5 1.5 0 0 0 0 4.5v10A1.5 1.5 0 0 0 1.5 16h10a1.5 1.5 0 0 0 1.5-1.5V7.864a.5.5 0 0 0-1 0V14.5a.5.5 0 0 1-.5.5h-10a.5.5 0 0 1-.5-.5v-10a.5.5 0 0 1 .5-.5h6.636a.5.5 0 0 0 .5-.5z"/>
+							    <path fill-rule="evenodd" d="M16 .5a.5.5 0 0 0-.5-.5h-5a.5.5 0 0 0 0 1h3.793L6.146 9.146a.5.5 0 1 0 .708.708L15 1.707V5.5a.5.5 0 0 0 1 0v-5z"/>
+							</svg>
+			    		</button>
+			    	</span>
+			    	<span class="show">
+			    		<button class="btn btn-outline-dark" onclick="openSnapchat()">
+			    			Adden&nbsp
+			    			<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-box-arrow-up-right" viewBox="0 0 16 16">
+							    <path fill-rule="evenodd" d="M8.636 3.5a.5.5 0 0 0-.5-.5H1.5A1.5 1.5 0 0 0 0 4.5v10A1.5 1.5 0 0 0 1.5 16h10a1.5 1.5 0 0 0 1.5-1.5V7.864a.5.5 0 0 0-1 0V14.5a.5.5 0 0 1-.5.5h-10a.5.5 0 0 1-.5-.5v-10a.5.5 0 0 1 .5-.5h6.636a.5.5 0 0 0 .5-.5z"/>
+							    <path fill-rule="evenodd" d="M16 .5a.5.5 0 0 0-.5-.5h-5a.5.5 0 0 0 0 1h3.793L6.146 9.146a.5.5 0 1 0 .708.708L15 1.707V5.5a.5.5 0 0 0 1 0v-5z"/>
+							</svg>
+			    		</button>
+			    	</span>
 			  	</div>
 			</div>
 		</div>
@@ -127,7 +143,7 @@
 			</div>
 		</div>
 		<footer id="footer">     
-            <p>
+            <p onclick="scrollToTop()">
                 Created with
                 <span id="heart">
                     <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-heart-fill" viewBox="0 0 16 16">
