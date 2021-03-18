@@ -1,189 +1,189 @@
 <!DOCTYPE html>
 <html>
-	<head>
-		<meta charset="utf-8">
-		<meta name="viewport" content="width=device-width, initial-scale=1">
-		<meta name="author" content="chr3st5an">
-		<meta name="description" content="Alles wichtige rund um Damira auf einer Webseite">
-		<title>Purefairytale</title>
-		<link rel="icon" href="img/magic-wand.png">
-		<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
-		<link rel="stylesheet" type="text/css" href="./css/main.css">
-		<link rel="stylesheet" type="text/css" href="./css/cards.css">
-		<script type="text/javascript" src="./JavaScript/index.js"></script>
-		<script>
-			checkIfDamiraHasBirthday();
-		</script>
-	</head>
-	<body>
-		<div id="intro">
-			<nav class="navbar navbar-expand-lg navbar-light">
-			  	<div class="container-fluid">
-			    	<a class="navbar-brand" onclick="scrollToTop()">
-			      		<img src="img/fairy.png" alt="Damira" class="d-inline-block align-top">
-			      		Damira
-			    	</a>
-			  	</div>
-			</nav>
-			<div class="col d-flex justify-content-center">
-				<div class="card" id="instagram">
-					<div class="card-header">
-				    	Instagram
-				  	</div>
-				  	<img src="img/damira.jpg" class="card-img-top" alt="Damira">
-				  	<div class="card-body">
-				    	<h5 class="card-title">Purefairytale</h5>
-				    	<p class="card-text">Ästhetische Posts und Stories gibt's nur hier!</p>
-				    	<span class="normal">
-					    	<button class="btn btn-outline-primary" onclick="openInstagram()">
-					    		Follow&nbsp
-					    		<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-box-arrow-up-right" viewBox="0 0 16 16">
-								    <path fill-rule="evenodd" d="M8.636 3.5a.5.5 0 0 0-.5-.5H1.5A1.5 1.5 0 0 0 0 4.5v10A1.5 1.5 0 0 0 1.5 16h10a1.5 1.5 0 0 0 1.5-1.5V7.864a.5.5 0 0 0-1 0V14.5a.5.5 0 0 1-.5.5h-10a.5.5 0 0 1-.5-.5v-10a.5.5 0 0 1 .5-.5h6.636a.5.5 0 0 0 .5-.5z"/>
-								    <path fill-rule="evenodd" d="M16 .5a.5.5 0 0 0-.5-.5h-5a.5.5 0 0 0 0 1h3.793L6.146 9.146a.5.5 0 1 0 .708.708L15 1.707V5.5a.5.5 0 0 0 1 0v-5z"/>
-								</svg>
-					    	</button>
-				   		</span>
-				    	<span class="show">
-				    		<button class="btn btn-outline-light" onclick="openInstagram()">
-					    		Follow&nbsp
-					    		<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-box-arrow-up-right" viewBox="0 0 16 16">
-								    <path fill-rule="evenodd" d="M8.636 3.5a.5.5 0 0 0-.5-.5H1.5A1.5 1.5 0 0 0 0 4.5v10A1.5 1.5 0 0 0 1.5 16h10a1.5 1.5 0 0 0 1.5-1.5V7.864a.5.5 0 0 0-1 0V14.5a.5.5 0 0 1-.5.5h-10a.5.5 0 0 1-.5-.5v-10a.5.5 0 0 1 .5-.5h6.636a.5.5 0 0 0 .5-.5z"/>
-								    <path fill-rule="evenodd" d="M16 .5a.5.5 0 0 0-.5-.5h-5a.5.5 0 0 0 0 1h3.793L6.146 9.146a.5.5 0 1 0 .708.708L15 1.707V5.5a.5.5 0 0 0 1 0v-5z"/>
-								</svg>
-					    	</button>
-				    	</span>
-				 	</div>
-				</div>
-			</div>
-		</div>
-		<div class="col d-flex justify-content-center" id="ted-talk1">
-			<div class="card" style="background:#ffcd48">
-			  	<div class="card-header">
-			    	Ted Talk
-			  	</div>
-			  	<div class="card-body">
-			    	<blockquote class="blockquote mb-0">
-			      		<p>
-			      			Ich wollte schon immer einen Ort haben, an dem ich mich Zuhause fühle.
-			      			Home ist aber kein Ort, sondern ein Gefühl.
-			      		</p>
-			      		<footer class="blockquote-footer">Damira D.</footer>
-			    	</blockquote>
-			  	</div>
-			</div>
-		</div>
-		<div class="col d-flex justify-content-center" id="second">
-			<div class="card" id="snapchat">
-				<div class="card-header">
-				    Snapchat
-				</div>
-			  	<img src="img/snapchat_qr.png" class="card-img-top" alt="QR Code">
-			  	<div class="card-body">
-			    	<h5 class="card-title">Fassunglose</h5>
-			    	<p class="card-text">Tägliche Snaps von Damira sind so beruhigend, wie Pinguine auf Speed.</p>
-			    	<span class="normal">
-			    		<button class="btn btn-outline-primary" onclick="openSnapchat()">
-			    			Adden&nbsp
-			    			<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-box-arrow-up-right" viewBox="0 0 16 16">
-							    <path fill-rule="evenodd" d="M8.636 3.5a.5.5 0 0 0-.5-.5H1.5A1.5 1.5 0 0 0 0 4.5v10A1.5 1.5 0 0 0 1.5 16h10a1.5 1.5 0 0 0 1.5-1.5V7.864a.5.5 0 0 0-1 0V14.5a.5.5 0 0 1-.5.5h-10a.5.5 0 0 1-.5-.5v-10a.5.5 0 0 1 .5-.5h6.636a.5.5 0 0 0 .5-.5z"/>
-							    <path fill-rule="evenodd" d="M16 .5a.5.5 0 0 0-.5-.5h-5a.5.5 0 0 0 0 1h3.793L6.146 9.146a.5.5 0 1 0 .708.708L15 1.707V5.5a.5.5 0 0 0 1 0v-5z"/>
-							</svg>
-			    		</button>
-			    	</span>
-			    	<span class="show">
-			    		<button class="btn btn-outline-dark" onclick="openSnapchat()">
-			    			Adden&nbsp
-			    			<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-box-arrow-up-right" viewBox="0 0 16 16">
-							    <path fill-rule="evenodd" d="M8.636 3.5a.5.5 0 0 0-.5-.5H1.5A1.5 1.5 0 0 0 0 4.5v10A1.5 1.5 0 0 0 1.5 16h10a1.5 1.5 0 0 0 1.5-1.5V7.864a.5.5 0 0 0-1 0V14.5a.5.5 0 0 1-.5.5h-10a.5.5 0 0 1-.5-.5v-10a.5.5 0 0 1 .5-.5h6.636a.5.5 0 0 0 .5-.5z"/>
-							    <path fill-rule="evenodd" d="M16 .5a.5.5 0 0 0-.5-.5h-5a.5.5 0 0 0 0 1h3.793L6.146 9.146a.5.5 0 1 0 .708.708L15 1.707V5.5a.5.5 0 0 0 1 0v-5z"/>
-							</svg>
-			    		</button>
-			    	</span>
-			  	</div>
-			</div>
-		</div>
-		<div class="col d-flex justify-content-center" id="ted-talk2">
-			<div class="card" style="background:#ffcd48">
-			  	<div class="card-header">
-			    	Ted Talk
-			  	</div>
-			  	<div class="card-body">
-			    	<blockquote class="blockquote mb-0">
-			      		<p>
-			      			Ich denke Zuhause ist was man sich macht bzw. die Menschen um einen herum,
-			      			die einen mit Liebe umgeben und die man liebt.
-			      		</p>
-			      		<footer class="blockquote-footer">Damira D.</footer>
-			    	</blockquote>
-			  	</div>
-			</div>
-		</div>
-		<div class="col d-flex justify-content-center" id="third">
-			<div class="card" id="whatsapp">
-				<div class="card-header">
-				    WhatsApp
-				</div>
-			  	<img src="./img/damira_ist_happy.jpg" class="card-img-top" alt="pfp">
-			  	<div class="card-body">
-			    	<h5 class="card-title">Telefonnummer</h5>
-			    	<p class="card-text">Die Telefonnummer zur Göttin höchst persönlich.</p>
-			    	<span class="normal">
-				    	<button class="btn btn-outline-primary" onclick="saveNumber()">
-				    		Kopieren&nbsp
-				    		<span class="copy">
-					    		<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-clipboard" viewBox="0 0 16 16">
-									<path d="M4 1.5H3a2 2 0 0 0-2 2V14a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V3.5a2 2 0 0 0-2-2h-1v1h1a1 1 0 0 1 1 1V14a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1V3.5a1 1 0 0 1 1-1h1v-1z"/>
-									<path d="M9.5 1a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-3a.5.5 0 0 1-.5-.5v-1a.5.5 0 0 1 .5-.5h3zm-3-1A1.5 1.5 0 0 0 5 1.5v1A1.5 1.5 0 0 0 6.5 4h3A1.5 1.5 0 0 0 11 2.5v-1A1.5 1.5 0 0 0 9.5 0h-3z"/>
-								</svg>
-							</span>
-							<span class="copied">
-								<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-clipboard-check" viewBox="0 0 16 16">
-									<path fill-rule="evenodd" d="M10.854 7.146a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708 0l-1.5-1.5a.5.5 0 1 1 .708-.708L7.5 9.793l2.646-2.647a.5.5 0 0 1 .708 0z"/>
-									<path d="M4 1.5H3a2 2 0 0 0-2 2V14a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V3.5a2 2 0 0 0-2-2h-1v1h1a1 1 0 0 1 1 1V14a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1V3.5a1 1 0 0 1 1-1h1v-1z"/>
-									 <path d="M9.5 1a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-3a.5.5 0 0 1-.5-.5v-1a.5.5 0 0 1 .5-.5h3zm-3-1A1.5 1.5 0 0 0 5 1.5v1A1.5 1.5 0 0 0 6.5 4h3A1.5 1.5 0 0 0 11 2.5v-1A1.5 1.5 0 0 0 9.5 0h-3z"/>
-								</svg>
-							</span>				    	
-						</button>
-				    </span>
-				    <span class="show">
-				    	<button class="btn btn-outline-light" onclick="saveNumber()">
-				    		Kopieren&nbsp
-				    		<span class="copy">
-					    		<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-clipboard" viewBox="0 0 16 16">
-									<path d="M4 1.5H3a2 2 0 0 0-2 2V14a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V3.5a2 2 0 0 0-2-2h-1v1h1a1 1 0 0 1 1 1V14a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1V3.5a1 1 0 0 1 1-1h1v-1z"/>
-									<path d="M9.5 1a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-3a.5.5 0 0 1-.5-.5v-1a.5.5 0 0 1 .5-.5h3zm-3-1A1.5 1.5 0 0 0 5 1.5v1A1.5 1.5 0 0 0 6.5 4h3A1.5 1.5 0 0 0 11 2.5v-1A1.5 1.5 0 0 0 9.5 0h-3z"/>
-								</svg>
-							</span>
-							<span class="copied">
-								<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-clipboard-check" viewBox="0 0 16 16">
-									<path fill-rule="evenodd" d="M10.854 7.146a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708 0l-1.5-1.5a.5.5 0 1 1 .708-.708L7.5 9.793l2.646-2.647a.5.5 0 0 1 .708 0z"/>
-									<path d="M4 1.5H3a2 2 0 0 0-2 2V14a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V3.5a2 2 0 0 0-2-2h-1v1h1a1 1 0 0 1 1 1V14a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1V3.5a1 1 0 0 1 1-1h1v-1z"/>
-									 <path d="M9.5 1a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-3a.5.5 0 0 1-.5-.5v-1a.5.5 0 0 1 .5-.5h3zm-3-1A1.5 1.5 0 0 0 5 1.5v1A1.5 1.5 0 0 0 6.5 4h3A1.5 1.5 0 0 0 11 2.5v-1A1.5 1.5 0 0 0 9.5 0h-3z"/>
-								</svg>
-							</span>
-				    	</button>
-				    </span>
-			  	</div>
-			</div>
-		</div>
-		<div class="col d-flex justify-content-center" id="ted-talk3">
-			<div class="card" style="background:#ffcd48">
-			  	<div class="card-header">
-			    	Ted Talk
-			  	</div>
-			  	<div class="card-body">
-			    	<blockquote class="blockquote mb-0">
-			      		<p>
-			      			Wir können uns abgesehen von unserer biologischen Familie, die für viele ihr Zuhause
-			      			ist, unser Home schaffen.  
-			      		</p>
-			      		<footer class="blockquote-footer">Damira D.</footer>
-			    	</blockquote>
-			  	</div>
-			</div>
-		</div>
-		<div class="space"></div>
-		<footer id="footer">     
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="author" content="chr3st5an">
+        <meta name="description" content="Alles wichtige rund um Damira auf einer Webseite">
+        <title>Purefairytale</title>
+        <link rel="icon" href="img/magic-wand.png">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+        <link rel="stylesheet" type="text/css" href="./css/main.css">
+        <link rel="stylesheet" type="text/css" href="./css/cards.css">
+        <script type="text/javascript" src="./JavaScript/index.js"></script>
+        <script>
+            checkIfDamiraHasBirthday();
+        </script>
+    </head>
+    <body>
+        <div id="intro">
+            <nav class="navbar navbar-expand-lg navbar-light">
+                <div class="container-fluid">
+                    <a class="navbar-brand" onclick="scrollToTop()">
+                    <img src="img/fairy.png" alt="Damira" class="d-inline-block align-top">
+                    Damira
+                    </a>
+                </div>
+            </nav>
+            <div class="col d-flex justify-content-center">
+                <div class="card" id="instagram">
+                    <div class="card-header">
+                        Instagram
+                    </div>
+                    <img src="img/damira.jpg" class="card-img-top" alt="Damira">
+                    <div class="card-body">
+                        <h5 class="card-title">Purefairytale</h5>
+                        <p class="card-text">Ästhetische Posts und Stories gibt's nur hier!</p>
+                        <span class="normal">
+                            <button class="btn btn-outline-primary" onclick="openInstagram()">
+                                Follow&nbsp
+                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-box-arrow-up-right" viewBox="0 0 16 16">
+                                    <path fill-rule="evenodd" d="M8.636 3.5a.5.5 0 0 0-.5-.5H1.5A1.5 1.5 0 0 0 0 4.5v10A1.5 1.5 0 0 0 1.5 16h10a1.5 1.5 0 0 0 1.5-1.5V7.864a.5.5 0 0 0-1 0V14.5a.5.5 0 0 1-.5.5h-10a.5.5 0 0 1-.5-.5v-10a.5.5 0 0 1 .5-.5h6.636a.5.5 0 0 0 .5-.5z"/>
+                                    <path fill-rule="evenodd" d="M16 .5a.5.5 0 0 0-.5-.5h-5a.5.5 0 0 0 0 1h3.793L6.146 9.146a.5.5 0 1 0 .708.708L15 1.707V5.5a.5.5 0 0 0 1 0v-5z"/>
+                                </svg>
+                            </button>
+                        </span>
+                        <span class="show">
+                            <button class="btn btn-outline-light" onclick="openInstagram()">
+                                Follow&nbsp
+                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-box-arrow-up-right" viewBox="0 0 16 16">
+                                    <path fill-rule="evenodd" d="M8.636 3.5a.5.5 0 0 0-.5-.5H1.5A1.5 1.5 0 0 0 0 4.5v10A1.5 1.5 0 0 0 1.5 16h10a1.5 1.5 0 0 0 1.5-1.5V7.864a.5.5 0 0 0-1 0V14.5a.5.5 0 0 1-.5.5h-10a.5.5 0 0 1-.5-.5v-10a.5.5 0 0 1 .5-.5h6.636a.5.5 0 0 0 .5-.5z"/>
+                                    <path fill-rule="evenodd" d="M16 .5a.5.5 0 0 0-.5-.5h-5a.5.5 0 0 0 0 1h3.793L6.146 9.146a.5.5 0 1 0 .708.708L15 1.707V5.5a.5.5 0 0 0 1 0v-5z"/>
+                                </svg>
+                            </button>
+                        </span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col d-flex justify-content-center" id="ted-talk1">
+            <div class="card" style="background:#ffcd48">
+                <div class="card-header">
+                    Ted Talk
+                </div>
+                <div class="card-body">
+                    <blockquote class="blockquote mb-0">
+                        <p>
+                            Ich wollte schon immer einen Ort haben, an dem ich mich Zuhause fühle.
+                            Home ist aber kein Ort, sondern ein Gefühl.
+                        </p>
+                        <footer class="blockquote-footer">Damira D.</footer>
+                    </blockquote>
+                </div>
+            </div>
+        </div>
+        <div class="col d-flex justify-content-center" id="second">
+            <div class="card" id="snapchat">
+                <div class="card-header">
+                    Snapchat
+                </div>
+                <img src="img/snapchat_qr.png" class="card-img-top" alt="QR Code">
+                <div class="card-body">
+                    <h5 class="card-title">Fassunglose</h5>
+                    <p class="card-text">Tägliche Snaps von Damira sind so berühigend, wie Pinguine auf Speed.</p>
+                    <span class="normal">
+                        <button class="btn btn-outline-primary" onclick="openSnapchat()">
+                            Adden&nbsp
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-box-arrow-up-right" viewBox="0 0 16 16">
+                                <path fill-rule="evenodd" d="M8.636 3.5a.5.5 0 0 0-.5-.5H1.5A1.5 1.5 0 0 0 0 4.5v10A1.5 1.5 0 0 0 1.5 16h10a1.5 1.5 0 0 0 1.5-1.5V7.864a.5.5 0 0 0-1 0V14.5a.5.5 0 0 1-.5.5h-10a.5.5 0 0 1-.5-.5v-10a.5.5 0 0 1 .5-.5h6.636a.5.5 0 0 0 .5-.5z"/>
+                                <path fill-rule="evenodd" d="M16 .5a.5.5 0 0 0-.5-.5h-5a.5.5 0 0 0 0 1h3.793L6.146 9.146a.5.5 0 1 0 .708.708L15 1.707V5.5a.5.5 0 0 0 1 0v-5z"/>
+                            </svg>
+                        </button>
+                    </span>
+                    <span class="show">
+                        <button class="btn btn-outline-dark" onclick="openSnapchat()">
+                            Adden&nbsp
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-box-arrow-up-right" viewBox="0 0 16 16">
+                                <path fill-rule="evenodd" d="M8.636 3.5a.5.5 0 0 0-.5-.5H1.5A1.5 1.5 0 0 0 0 4.5v10A1.5 1.5 0 0 0 1.5 16h10a1.5 1.5 0 0 0 1.5-1.5V7.864a.5.5 0 0 0-1 0V14.5a.5.5 0 0 1-.5.5h-10a.5.5 0 0 1-.5-.5v-10a.5.5 0 0 1 .5-.5h6.636a.5.5 0 0 0 .5-.5z"/>
+                                <path fill-rule="evenodd" d="M16 .5a.5.5 0 0 0-.5-.5h-5a.5.5 0 0 0 0 1h3.793L6.146 9.146a.5.5 0 1 0 .708.708L15 1.707V5.5a.5.5 0 0 0 1 0v-5z"/>
+                            </svg>
+                        </button>
+                    </span>
+                </div>
+            </div>
+        </div>
+        <div class="col d-flex justify-content-center" id="ted-talk2">
+            <div class="card" style="background:#ffcd48">
+                <div class="card-header">
+                    Ted Talk
+                </div>
+                <div class="card-body">
+                    <blockquote class="blockquote mb-0">
+                        <p>
+                            Ich denke Zuhause ist was man sich macht bzw. die Menschen um einen herum,
+                            die einen mit Liebe umgeben und die man liebt.
+                        </p>
+                        <footer class="blockquote-footer">Damira D.</footer>
+                    </blockquote>
+                </div>
+            </div>
+        </div>
+        <div class="col d-flex justify-content-center" id="third">
+            <div class="card" id="whatsapp">
+                <div class="card-header">
+                    WhatsApp
+                </div>
+                <img src="./img/damira_ist_happy.jpg" class="card-img-top" alt="pfp">
+                <div class="card-body">
+                    <h5 class="card-title">Telefonnummer</h5>
+                    <p class="card-text">Die Telefonnummer zur Göttin höchst persönlich.</p>
+                    <span class="normal">
+                        <button class="btn btn-outline-primary" onclick="saveNumber()">
+                            Kopieren&nbsp
+                            <span class="copy">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-clipboard" viewBox="0 0 16 16">
+                                    <path d="M4 1.5H3a2 2 0 0 0-2 2V14a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V3.5a2 2 0 0 0-2-2h-1v1h1a1 1 0 0 1 1 1V14a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1V3.5a1 1 0 0 1 1-1h1v-1z"/>
+                                    <path d="M9.5 1a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-3a.5.5 0 0 1-.5-.5v-1a.5.5 0 0 1 .5-.5h3zm-3-1A1.5 1.5 0 0 0 5 1.5v1A1.5 1.5 0 0 0 6.5 4h3A1.5 1.5 0 0 0 11 2.5v-1A1.5 1.5 0 0 0 9.5 0h-3z"/>
+                                </svg>
+                            </span>
+                            <span class="copied">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-clipboard-check" viewBox="0 0 16 16">
+                                    <path fill-rule="evenodd" d="M10.854 7.146a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708 0l-1.5-1.5a.5.5 0 1 1 .708-.708L7.5 9.793l2.646-2.647a.5.5 0 0 1 .708 0z"/>
+                                    <path d="M4 1.5H3a2 2 0 0 0-2 2V14a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V3.5a2 2 0 0 0-2-2h-1v1h1a1 1 0 0 1 1 1V14a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1V3.5a1 1 0 0 1 1-1h1v-1z"/>
+                                    <path d="M9.5 1a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-3a.5.5 0 0 1-.5-.5v-1a.5.5 0 0 1 .5-.5h3zm-3-1A1.5 1.5 0 0 0 5 1.5v1A1.5 1.5 0 0 0 6.5 4h3A1.5 1.5 0 0 0 11 2.5v-1A1.5 1.5 0 0 0 9.5 0h-3z"/>
+                                </svg>
+                            </span>
+                        </button>
+                    </span>
+                    <span class="show">
+                        <button class="btn btn-outline-light" onclick="saveNumber()">
+                            Kopieren&nbsp
+                            <span class="copy">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-clipboard" viewBox="0 0 16 16">
+                                    <path d="M4 1.5H3a2 2 0 0 0-2 2V14a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V3.5a2 2 0 0 0-2-2h-1v1h1a1 1 0 0 1 1 1V14a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1V3.5a1 1 0 0 1 1-1h1v-1z"/>
+                                    <path d="M9.5 1a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-3a.5.5 0 0 1-.5-.5v-1a.5.5 0 0 1 .5-.5h3zm-3-1A1.5 1.5 0 0 0 5 1.5v1A1.5 1.5 0 0 0 6.5 4h3A1.5 1.5 0 0 0 11 2.5v-1A1.5 1.5 0 0 0 9.5 0h-3z"/>
+                                </svg>
+                            </span>
+                            <span class="copied">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-clipboard-check" viewBox="0 0 16 16">
+                                    <path fill-rule="evenodd" d="M10.854 7.146a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708 0l-1.5-1.5a.5.5 0 1 1 .708-.708L7.5 9.793l2.646-2.647a.5.5 0 0 1 .708 0z"/>
+                                    <path d="M4 1.5H3a2 2 0 0 0-2 2V14a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V3.5a2 2 0 0 0-2-2h-1v1h1a1 1 0 0 1 1 1V14a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1V3.5a1 1 0 0 1 1-1h1v-1z"/>
+                                    <path d="M9.5 1a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-3a.5.5 0 0 1-.5-.5v-1a.5.5 0 0 1 .5-.5h3zm-3-1A1.5 1.5 0 0 0 5 1.5v1A1.5 1.5 0 0 0 6.5 4h3A1.5 1.5 0 0 0 11 2.5v-1A1.5 1.5 0 0 0 9.5 0h-3z"/>
+                                </svg>
+                            </span>
+                        </button>
+                    </span>
+                </div>
+            </div>
+        </div>
+        <div class="col d-flex justify-content-center" id="ted-talk3">
+            <div class="card" style="background:#ffcd48">
+                <div class="card-header">
+                    Ted Talk
+                </div>
+                <div class="card-body">
+                    <blockquote class="blockquote mb-0">
+                        <p>
+                            Wir können uns abgesehen von unserer biologischen Familie, die für viele ihr Zuhause
+                            ist, unser Home schaffen.  
+                        </p>
+                        <footer class="blockquote-footer">Damira D.</footer>
+                    </blockquote>
+                </div>
+            </div>
+        </div>
+        <div class="space"></div>
+        <footer id="footer">
             <p onclick="scrollToTop()">
                 Created with
                 <span id="heart">
@@ -194,5 +194,5 @@
                 by chr3st5an for Damira
             </p>
         </footer>
-	</body>
-</html> 
+    </body>
+</html>
